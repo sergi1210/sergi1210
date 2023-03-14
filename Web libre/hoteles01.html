@@ -1,0 +1,113 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Hotel</a>
+  <a href="file:///C:/Users/sergiomontesg.car/Desktop/Web%20libre/webviajes3.html" onclick="w3_close()" class="w3-bar-item w3-button">Come Back</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">TravelWorld</div>
+    <div class="w3-center w3-padding-16">TW  Hotels</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="imagenes/sandwich.jpg" alt="Sandwich" style="width:104%">
+      <h3>El Hotel Plaza  (New York)</h3>
+      <p>Uno de los hoteles mas prestigiosos alrededor del mundo</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/steak.jpg" alt="Steak" style="width:96%">
+      <h3>El Palace Hotel (Madrid)</h3>
+      <p>El hotel mejor valorado de España</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/cherries.jpg" alt="Cherries" style="width:87%">
+      <h3>The Darling at The Star (Sidney)</h3>
+      <p>El mejor hotel de toda oceanía</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/wine.jpg" alt="Wine" style="width:85%">
+      <h3>Hotel Marriott Royal Aurora (Moscú)</h3>
+      <p>El mas elegante del mundo</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="imagenes/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>Hotel Lutetia (Paris)</h3>
+      <p>El mejor hotel por diferencia de la ciudad del amor</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>The Grand Mark (Praga)</h3>
+      <p>The Grand Mark es el mejor de praga y el mejor de Austria</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/sandich.jpg" alt="Sandich" style="width:105%">
+      <h3>Anantara Palazzo (Roma)</h3>
+      <p>El hotel Anantara es de los mejores del mundo gracias a su incrible arquitectura</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="imagenes/Tiko.jpg" alt=">Tiko" style="width:93%">
+      <h3>The Peninsula Hong Kong Hotel (China)</h3>
+      <p>Es el Hotel mas lujoso de toda Asia </p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
